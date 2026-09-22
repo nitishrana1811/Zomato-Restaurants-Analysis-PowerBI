@@ -4,7 +4,13 @@
 
 This project presents an interactive Power BI dashboard created to analyze Zomato restaurant data and identify meaningful patterns across restaurants, cuisines, locations, ratings, table booking, and online delivery.
 
-The dashboard transforms raw restaurant data into an interactive visual report that can be used to explore restaurant distribution and customer-related trends across different countries and cities.
+The dashboard transforms restaurant data into an interactive visual report that can be used to explore restaurant distribution and customer-related trends across different countries and cities.
+
+---
+
+## Dashboard Preview
+
+![Zomato Restaurants Analysis Dashboard](dashboard.png)
 
 ---
 
@@ -23,25 +29,11 @@ The dashboard transforms raw restaurant data into an interactive visual report t
 
 ## Key Insights
 
-### Restaurant Distribution
 - New Delhi has the highest number of restaurants in the dataset, followed by Gurgaon and Noida.
-- The dashboard provides a city-level comparison of restaurant counts.
-
-### Cuisine Analysis
-- North Indian cuisine is the most represented cuisine in the dataset.
-- Chinese and Fast Food are among the other highly represented cuisines.
-
-### Table Booking
-- Most restaurants in the dataset do not provide table booking.
-- This provides an opportunity to analyze how table booking availability varies across restaurants.
-
-### Online Delivery
+- North Indian cuisine is the most represented cuisine, followed by Chinese and Fast Food.
+- Most restaurants in the dataset do not offer table booking.
 - Online delivery is widely available across the analyzed restaurants.
-- The dashboard allows users to compare restaurants based on delivery availability.
-
-### Restaurant Ratings
-- The dashboard compares average ratings across selected restaurant brands.
-- Among the selected brands displayed in the dashboard, McDonald's has the highest average rating.
+- Among the selected restaurant brands displayed in the dashboard, McDonald's has the highest average rating.
 
 ---
 
@@ -65,11 +57,11 @@ The dashboard transforms raw restaurant data into an interactive visual report t
 
 ## Tools & Technologies
 
-- **Power BI**
-- **Power Query**
-- **DAX**
-- **Data Modeling**
-- **Data Visualization**
+- Power BI
+- Power Query
+- DAX
+- Data Modeling
+- Data Visualization
 
 ---
 
@@ -140,6 +132,14 @@ The dashboard focuses on answering questions such as:
 The objective of this project was to use Power BI to convert restaurant data into an interactive business intelligence dashboard.
 
 The project demonstrates how data cleaning, transformation, modeling, DAX, and visualization can be combined to generate useful insights from a real-world dataset.
+
+---
+
+## Files Included
+
+```text
+Zomato-Restaurants-Analysis-PowerBI/
+│
 ├── README.md
 ├── dashboard.png
 └── Zomato_Restaurants_Analysis.pbix
